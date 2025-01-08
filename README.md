@@ -30,6 +30,11 @@ The AI agent learns by trial and error and uses its experiences to improve its d
 - **Visualization**: Real-time display of the game and AI performance.
 - **Checkpoints**: Save and load trained models.
 
+## Demo
+https://github.com/user-attachments/assets/bf7b87ad-1982-4d5e-b14a-f69627ef3a16
+
+
+
 ## Algorithm Explanation
 ### Deep Q-Learning (DQN)
 Deep Q-Learning combines Q-learning with deep neural networks to approximate the Q-value function for large state-action spaces.
