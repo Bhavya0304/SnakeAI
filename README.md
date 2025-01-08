@@ -50,9 +50,8 @@ Deep Q-Learning combines Q-learning with deep neural networks to approximate the
    - The agent can choose from four actions: move up, down, left, or right.
 
 4. **Reward Function**:
-   - Positive reward for eating food.
-   - Negative reward for collisions (game over).
-   - Small negative reward for each step to encourage shorter solutions.
+   - Positive reward for eating food (+10).
+   - Negative reward for collisions (game over) (-10).
 
 5. **Deep Q-Network (DQN)**:
    - A neural network approximates the Q-value for each state-action pair.
@@ -84,8 +83,8 @@ Deep Q-Learning combines Q-learning with deep neural networks to approximate the
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ai-snake-game.git
-   cd ai-snake-game
+   git clone https://github.com/bhavya0304/SnakeAI.git
+   cd SnakeAI
    ```
 2. Install the required dependencies:
    ```bash
@@ -95,15 +94,7 @@ Deep Q-Learning combines Q-learning with deep neural networks to approximate the
 ## Usage
 1. Train the AI agent:
    ```bash
-   python train.py
-   ```
-2. Play the game with the trained AI:
-   ```bash
-   python play.py
-   ```
-3. Visualize training performance:
-   ```bash
-   python visualize_training.py
+   python ./SnakeAI_Final/agent.py
    ```
 
 ## Results
@@ -112,5 +103,3 @@ The AI agent starts by making random moves but gradually learns to optimize its 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
